@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.ff-poppins{
+    font-family: 'Poppins';
+}
+
+.ff-mulish{
+    font-family: 'Mulish';
+}
+
+#hero, #about, #contact{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+#portofolio, #footer{
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.navbar{
+    font-family: 'Poppins';
+    background-color: #FFFFFF;
+}
+
+.hero-img{
+    -webkit-animation: morph 8s ease-in-out infinite;
+    animation: morph 8s ease-in-out infinite;
+    background-image: url(/assets/IMG20230928151819-_1_.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    height: 23rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 23rem;
+}
+
+.ts{
+    height: 3rem;
+}
+
+.img-side{
+    border-radius: 1.7rem;
+    width: 24rem;
+    height: 18rem;
+    object-fit: cover;
+}
+
+.card{
+    border-radius: 25px;
+}
+.img-porto{
+    width: 30rem;
+    border-radius: 20px;
+    box-shadow: inset;
+    transform: translateY(0%); 
+    transition: transform 10s ease-in-out 0s;
+}
+
+@media screen and (max-width:768px) {
+    #hero, #about, #contact{
+        margin-right: 32px;
+        margin-left: 32px;
+    }
+    
+    #portofolio, #footer{
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .hero-img{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-animation: morph 8s ease-in-out infinite;
+        animation: morph 8s ease-in-out infinite;
+        background-image: url(/assets/IMG20230928151819-_1_.webp);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 3px solid #2d2e32;
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        height: 12rem;
+        position: relative;
+        transition: all 1s ease-in-out;
+        width: 12rem;
+    }
+
+    .img-side{
+        display: flex;
+        justify-content: center;
+        width: 18rem;
+        height: 14rem;
+    }
+}
