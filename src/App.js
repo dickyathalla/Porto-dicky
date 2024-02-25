@@ -32,8 +32,8 @@ function App() {
             <div className="container position-relative my-5">
                 <div className="row py-0 py-lg-5">
                     <div className="col-12 col-lg-6 order-1 order-lg-0 my-auto">
-                        <h1 className="ff-poppins fw-bold">Front End React Developer 👋🏻</h1>
-                        <p>Hi, I'm Muhammad Dicky Athalla. A passionate Front-end React Developer based in Surabaya, Indonesia. 📍</p>
+                        <h1 className="ff-poppins fw-bold">Software Engineer 👋🏻</h1>
+                        <p>Hi, I'm Muhammad Dicky Athalla. A passionate Software Engineer based in Surabaya, Indonesia. 📍</p>
                         <a href="https://www.linkedin.com/in/dickyathalla/" className="text-black"><i className="bi bi-linkedin"></i></a>
                         <a href="https://github.com/dickyathalla" className="text-black ms-2"><i className="bi bi-github"></i></a>
                         <h5 className="mt-4">Tech stack   | <span><img src="assets/Group 111.png" className="ts" alt=""/></span></h5>
@@ -53,9 +53,9 @@ function App() {
                     </div>
                     <div className="col-12 col-lg-6 my-auto">
                         <p className="text-primary fw-bold m-0">ABOUT ME</p>
-                        <h4 className="ff-poppins fw-bolder">A dedicated Front-end Developer
+                        <h4 className="ff-poppins fw-bolder">A dedicated Software Engineer
                             based in Surabaya, Indonesia 📍</h4>
-                        <p className="ff-mulish">As a budding Front-End Developer at the junior level, I bring a robust skill set encompassing HTML, CSS, JavaScript, React, Tailwind, and SCSS. My strength lies in creating and upkeeping responsive websites that provide a seamless user experience. I specialize in designing dynamic and captivating interfaces by writing code that is both clean and optimized, utilizing the latest development tools and methodologies. Additionally, I am a collaborative team member, thriving in partnerships with cross-functional teams to deliver exceptional web applications.</p>
+                        <p className="ff-mulish">As a budding Front-End Developer at the junior level, I bring a robust skill set encompassing HTML, CSS, JavaScript, ReactJS, Tailwind, and SCSS. My strength lies in creating and upkeeping responsive websites that provide a seamless user experience. I have profound knowledge in networking, server and data storage, IT infrastructure, and basic programming acquired during my studies. Additionally, I am a collaborative team member, thriving in partnerships with cross-functional teams to deliver exceptional web applications.</p>
                     </div>
                 </div>
             </div>            
